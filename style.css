@@ -1,65 +1,53 @@
 html,
-body,
+body
 * {
-    padding: 0;
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
-}
-
-body {
-    text-align: center;
-    background-color:rgb(69, 79, 101)
-}
-
-
-.header {
-    font-size: 100rem;
-    padding: 2rem;
-    padding: 1.875rem;
-    letter-spacing: 0.5rem;
-    color:rgb(173, 173, 191)
-    
+    background-color:rgb(87, 101, 127); 
 }
 
 h1 {
-    font-family:'Inconsolata', monospace;;
-    font-size: 2rem;
-    padding-top: 1.25rem;
-    padding-top: 1.25rem;
+    font-size: 5rem;
+    font-family:'Inconsolata', monospace;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    background-color: rgb(69, 79, 101);
+    width: 70vw;
+    border: 1rem solid;
+    border-color:rgb(173, 173, 191);
 }
 
-.parent {
-    font-size: 500%;
-    margin: 2%;
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-}
-
-img {
-    width: 28rem;
-    height: auto;
-    margin: 4%;
-}
-
-.desc {
-    font-size: 2rem;
-    margin: 0.2em;
-    font-family:'Inconsolata', monospace;;
-}
-
-.child {
-    background-color:rgb(87, 101, 127); 
-    border: 0.625rem solid rgb(49, 59, 80); 
-    box-shadow: 0.625rem 0.438rem rgb(87, 98, 124) ;
-        border-radius: 5%;
-        min-width: 5%;
-        max-width: 100%;
-
-    width: 50rem;
-    height: 50rem;
+#pictext { 
+    color:rgb(173, 173, 191);
     margin: 1rem;
-    padding: 1.25rem;
-   
+}
+
+.picture {
+    width: 20vw;
+    height: 20vw;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    background-color:rgb(69, 79, 101) ;
+    padding: 3rem;
+    width: 30vw;
+    border: 1rem solid;
+    border-color:rgb(173, 173, 191) ;
+    font-family:'Inconsolata', monospace;
+}
+
+h3 {
+    color:rgb(226, 226, 237) ;
+    margin: 1rem;
 }
