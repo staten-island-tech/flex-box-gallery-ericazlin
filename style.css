@@ -1,0 +1,56 @@
+html,
+body
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color:rgb(87, 101, 127); 
+}
+
+h1 {
+    font-size: 5rem;
+    font-family:'Inconsolata', monospace;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    background-color: rgb(69, 79, 101);
+    width: 70vw;
+    border: 1rem solid;
+    border-color:rgb(173, 173, 191);
+}
+
+#pictext { 
+    color:rgb(173, 173, 191);
+    margin: 1rem;
+}
+
+.picture {
+    width: 20vw;
+    height: 20vw;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    background-color:rgb(69, 79, 101) ;
+    padding: 3rem;
+    width: 30vw;
+    border: 1rem solid;
+    border-color:rgb(173, 173, 191) ;
+    font-family:'Inconsolata', monospace;
+    box-shadow: 1rem 1rem #393e53;
+    border-radius: 5%;
+    
+}
+
+h3 {
+    color:rgb(226, 226, 237) ;
+    margin: 1rem;
+}
