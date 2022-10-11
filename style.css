@@ -53,3 +53,10 @@ h3 {
     color:rgb(226, 226, 237) ;
     margin: 1rem;
 }
+
+.box:hover {
+    transform: scale(1.05);
+    border: 1rem solid white;
+    box-shadow: none ;
+    transition: background-color 2s;
+    background-color:rgb(173, 173, 191)  ;
