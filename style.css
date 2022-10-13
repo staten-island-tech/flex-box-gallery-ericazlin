@@ -39,7 +39,15 @@ h3 {
 
 #pictext {
     color: rgb(87, 101, 127);
-    margin: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+#bob {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .picture {
@@ -80,7 +88,7 @@ h3 {
     transform: scale(1.15);
     box-shadow: none;
     background-color: rgb(69, 79, 101);
-    transition: 2s;
+    transition: 1s;
     color: rgb(226, 226, 237);
 }
 
@@ -90,18 +98,24 @@ h3 {
 }
 
 .picture:hover {
-    transition: 2s;
-    transform: rotate(1turn);
-    transform: scale(1.25)
+    transition: 1.5s;
+    transform: rotate(2turn);
 }
 
-/* abimation thing */
+#bob:hover {
+    transition: 1s;
+    text-decoration: underline;
+    transform: scale(1.25);
+    background-color: rgb(69, 79, 101);
+}
+
+/* abimation thing NOT CONSIDERED ANIMATION RN FIX*/
 
 .header:hover {
-    transition: 3s;
+    transition: 3.5s;
     background-color:rgb(255, 255, 255);
     border-color: rgb(87, 101, 127);
     transform: scale(1.1) ;
-    color: #393e53;
-    
+    color: #393e53; 
+    animation-duration: 1s; 
 }
