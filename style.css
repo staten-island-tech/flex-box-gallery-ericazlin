@@ -24,7 +24,18 @@ h3 {
     border: 1rem solid;
     border-color: rgb(255, 255, 255);
     margin-top: 3rem;
+    animation: 2s ease-out 0s 1 alternate text-move;
 }
+
+@keyframes text-move {
+    from {
+      transform: translateY(-110vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
 
 .hoverbover {
     font-size: 2rem;
@@ -109,13 +120,10 @@ h3 {
     background-color: rgb(69, 79, 101);
 }
 
-/* abimation thing NOT CONSIDERED ANIMATION RN FIX*/
-
 .header:hover {
-    transition: 3.5s;
+    transition: 2s;
     background-color:rgb(255, 255, 255);
     border-color: rgb(87, 101, 127);
     transform: scale(1.1) ;
     color: #393e53; 
-    animation-duration: 1s; 
-}
+} 
