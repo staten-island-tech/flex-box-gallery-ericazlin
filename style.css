@@ -129,32 +129,80 @@ h3 {
     }
 }
 
-/*media quirkies - ipad*/
+/*media quirkies - ipad air (landscape)*/
 
-@media screen and (max-width:820px) {
-    .picture {
-        width:20rem;
-        height:20rem;
-        align-items: center;
+@media screen and (max-height:820px) and (max-width:1180px) {
+    
+    .hoverbover {
+        width: 40vw;
     }
+
+    .box {
+        height: 72vh;
+    }
+
+
+}
+
+/*media quirkies - ipad air (portrait)*/
+
+@media screen and (max-width:820px) and (max-height:1180px) {
+    
+    .picture {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .hoverbover {
+        width: 70vw;
+    }
+
+    .box {
+        width: 90vw;
+        height: 70vh;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    #bob {
+        margin: auto;
+        width: fit-content;
+        padding: 3rem;
+    }
+
+    #pictext {
+        padding: 2rem;
+    }
+
     .boxes {
-        width:60rem;
-        height:80rem;
-        flex-direction: column;
+        display: inline;
         justify-content: center;
     }
+
 }
 /*media quirkies - iphone 12*/
 
-@media screen and (max-width:390px) {
-    .header {
-        margin: auto ;
+@media screen and (max-width:390px) and (max-height: 844px) {
+
+    .picture {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .hoverbover {
+        width: 80vw;
+    }
+
+
+    .box {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        margin-top: 4rem;
     }
 
     .boxes {
-        width:380px;
-        height:auto;
-        flex-direction: column;
-        justify-content: center
+        display: inline;
+        justify-content: center;
     }
 }
